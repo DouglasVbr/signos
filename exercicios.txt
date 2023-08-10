@@ -1,0 +1,216 @@
+exercicio 1 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> exercicio 1</title>
+</head>
+<body>
+    <h1>minhas fotos</h1>
+    <hr>
+    <img src="umbreon.png" alt="pokemon">
+</body>
+</html>
+
+exercicio 2
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> exercicio 2</title>
+</head>
+<body>
+    <h1>lista de compras</h1>
+    <ul>1. açucar</ul>
+    <ul>2. feijão</ul>
+    <ul>3. arroz</ul>
+    <ul>4. extrato de tomate</ul>
+    <ul>5. cebola </ul>
+    
+</body>
+</html>
+
+exercicio 3 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> exercicio 3</title>
+</head>
+<body>
+    <h1>receitas favoritas </h1>
+    <hr>
+   <ol>pudim</ol>
+   <img src="pudim.png" alt="">
+   <hr>
+   <ol>lasanha</ol>
+    <img src="lasanha.png" alt="">
+   <hr>
+   <ol>carreteiro</ol>
+   <img src="carreteiro.png" alt="">
+   </body>
+</html>
+
+exercicio 4
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> exercicio 4</title>
+</head>
+<body>
+    <h1>tarefas diarias </h1> 
+    <ul>1.arrumar a cama</ul>
+    <img src="feito.png" alt="concluida">
+    <ul>2. lavar a louça</ul>
+    <img src="feito.png" alt="concluida">
+    <ul>3. limpar o patio</ul>
+    <img src="feito.png" alt="concluida">
+    <ul>4. varrer a casa</ul>
+    <img src="feito.png" alt="concluida">
+    <ul>5. passar café </ul>
+    <img src="feito.png" alt="concluida">
+   </body>
+</html>
+
+exercicio 5
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> exercicio 5</title>
+</head>
+<body>
+    <h1>Meus Filmes Favoritos</h1>
+  
+  <ul>
+    
+      <img src="filme1.png" alt="Filme 1">
+      <li>
+      <p> filme 1: Um carcereiro tem um relacionamento incomum e comovente com um preso que está no corredor na morte: Coffey, um negro enorme, condenado por ter matado brutalmente duas gêmeas de nove anos. Ele tem tamanho e força para matar qualquer um, mas seu comportamento é completamente oposto à sua aparência. Além de ser simples, ingênuo e ter pavor do escuro, ele possui um dom sobrenatural. Com o passar do tempo, o carcereiro aprende que, às vezes, os milagres acontecem nos lugares mais inesperados.</p>
+    </li>
+    
+      <img src="filme2.png" alt="Filme 2">
+      <li>
+      <p> filme 2: Parker Wilson é um professor universitário que, ao retornar do trabalho, encontra na estação de trem um filhote de cachorro da raça akita, conhecido por sua lealdade. Sem ter como deixá-lo na estação, Parker o leva para casa mesmo sabendo que Cate, sua esposa, é contra a presença de um cachorro. Aos poucos Parker se afeiçoa ao filhote, que tem o nome Hachi escrito na coleira, em japonês. Cate cede e aceita sua permanência. Hachi cresce e passa a acompanhar Parker até a estação de trem, retornando ao local no horário em que o professor está de volta. Até que um acontecimento inesperado altera sua vida.</p> 
+    </li>
+    
+      <img src="filme3.png" alt="Filme 3">
+      <li>
+      <p> filme 3: A escritora Jennifer aluga uma cabana isolada para escrever sua mais recente novela. A paz e o silêncio do local são quebrados por uma gangue local que a estupra e tortura, deixando-a como morta. Mas Jennifer retorna para se vingar, capturando os homens um a um e lhes causando muito mais dor do que ela sofreu.</p>
+    </li>
+  </ul>
+   </body>
+</html>
+
+exercicio 6
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>exercicio 6</title>
+</head>
+<body>
+  <h1>Pontos Turísticos</h1>
+  <hr>
+
+  <ul>
+    <li>
+        <h2>Ponto Turístico 1: torre eiffel</h2>
+      <img src="torre.png" alt="Ponto Turístico 1">
+      
+      <p>A Torre Eiffel possui 324 metros de altura e possui três níveis; A Torre Eiffel era considerada a estrutura mais alto do mundo até o ano de 1930; Atualmente, a torre é a estrutura mais alta de Paris e a segunda da França.</p>
+      <hr>
+    </li>
+
+    <li>
+        <h2>Ponto Turístico 2: estatua da  liberdade</h2>
+      <img src="estatua.png" alt="Ponto Turístico 2">
+      
+      <p>O monumento representa a deusa romana da liberdade: “Libertas”. Ela sustenta uma tocha na mão direita (que está erguida), e na esquerda ela segura o Declaração da Independência dos Estados Unidos com a data da Independência do país escrita em números romanos: 4 de julho de 1776.</p>
+      <hr>
+    </li>
+
+    <li>
+        <h2>Ponto Turístico 3: cristo redentor</h2>
+      <img src="cristo.png" alt="Ponto Turístico 3">
+      <p>O monumento
+        O Cristo Redentor encontra-se de braços abertos, formando uma cruz, e tem 38 metros de altura, o que equivale a um edifício de 13 andares. Desse total, 30 metros são do monumento e oito do pedestal. Cada braço tem área de 88 metros quadrados e o pé mede 1,35 metro. Somente a cabeça pesa 30 toneladas.</p>
+    </li>
+  </ul>
+</body>
+</html>
+
+exercicio 7 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>exercicio 7</title>
+</head>
+<body>
+    <img src="eu1.png" alt="eu">
+  <h1>Dados Pessoais</h1>
+  <ul>
+    <li><strong>Nome completo:</strong> Douglas Vieira</li>
+    <li><strong>Idade:</strong> 24 anos</li>
+    <li><strong>E-mail:</strong> douglascanal1998@gmail.com</li>
+    <li><strong>Telefone:</strong> (51) 99850-9992</li>
+  </ul>
+
+  <h1>Formação Acadêmica</h1>
+  <ul>
+    <li><strong>Curso:</strong> Tecnologia Da Informação</li>
+    <li><strong>Instituição de Ensino:</strong> Colégio ULBRA São Lucas</li>
+    <li><strong>Ano de Conclusão:</strong> 2017</li>
+  </ul>
+
+  <h1>Experiência Profissional</h1>
+  <ul>
+    <li>
+      <strong>Empresa:</strong> Riot Games<br>
+      <strong>Cargo:</strong>Game Designer<br>
+      <strong>Período:</strong> Janeiro 2018 - Dezembro 2022<br>
+      <strong>Descrição:</strong> Os designers de jogos se concentram na função de um jogo, criando sistemas, regras e jogabilidade, e ajudam na construção do mundo (história e IP) para garantir que seja jogável, divertido e envolvente. Eles supervisionam a base e a execução da mecânica do jogo e a experiência geral do usuário.
+    </li>
+    <li>
+      <strong>Empresa:</strong>epic games<br>
+      <strong>Cargo:</strong> Game Developer (Desenvolvimento de Games)<br>
+      <strong>Período:</strong> Janeiro 2023 - Presente<br>
+      <strong>Descrição:</strong> Em resumo, o Game Developer é quem escreve os códigos que fazem o jogo funcionar. Este profissional vai definir a velocidade com que o jogo vai rodar, como os personagens se deslocam e também é ele que vai resolver possíveis bugs.
+    </li>
+  </ul>
+
+  <h1>Habilidades</h1>
+  <ul>
+    <li> animação 3D,  2D</li>
+    <li>ilustração</li>
+    <li>CRIATIVO</li>
+  </ul>
+
+  <h1>Idiomas</h1>
+  <ul>
+    <li>Portugues- Nível Avançado</li>
+    <li>english - Nível Intermediário</li>
+    <li>espanhol - Nível Básico</li>
+  </ul>
+</body>
+</html>
+
+

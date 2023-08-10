@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css/style.css">
+  <style>
+    /* Add your custom styles here */
+    body {
+      background-image: linear-gradient(to bottom, #727171, #000000);
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #a3313104;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ffcd00;
+    }
+
+    section {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    article {
+      text-align: center;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    article:hover {
+      transform: translateY(-5px);
+    }
+
+    article h2 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-size: 18px;
+      color: #333;
+    }
+
+    article p {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      color: #fff;
+      background: #ffcd00;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #ffa500;
+    }
+
+    footer {
+      background-color: #222;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    footer ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    footer ul li {
+      margin-right: 10px;
+    }
+
+    footer ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    footer ul li a:hover {
+      color: #ffcd00;
+    }
+
+    footer p {
+      font-size: 14px;
+    }
+  </style>
+  <title>DG Headsets</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="img/logo1.png.png" alt="Logo da Loja">
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#promocoes">Promoções</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="promocoes">
+    <article>
+      <img src="img/main1.png" alt="Produto1">
+      <h2>Headset Over-ear Preto Luz Led Rgb Microfone Gamer Jogos</h2>
+      <p>R$ 360,00</p>
+      <p>headset fone ...</p>
+     <a href="https://www.mercadolivre.com.br/headset-over-ear-preto-luz-led-rgb-microfone-gamer-jogos/p/MLB21895582?from=gshop&matt_tool=11660798&matt_word=&matt_source=google&matt_campaign_id=14303413658&matt_ad_group_id=125984293877&matt_match_type=&matt_network=g&matt_device=c&matt_creative=539354956710&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735098639&matt_product_id=MLB21895582-product&matt_product_partition_id=1799294727776&matt_target_id=aud-1966852281496:pla-1799294727776&gclid=CjwKCAjwhJukBhBPEiwAniIcNTAhX5JoGvQzRgHN3fjFQC9UXYPRTnXxDWWKz5kzDG4qKP3_aeOpixoCUTMQAvD_BwE"> <button class="btn">Comprar</button> </a>
+   
+
+
+    </article>
+    <article>
+      <img src="img/main2.png" alt="Produto 2">
+      <h2>Headset Razer Kraken Ultimate Usb</h2>
+      <p>R$ 199,00</p>
+      <p>headset fone ...</p>
+      <a href="https://www.amazon.com.br/ouvido-Razer-Kraken-Ultimate-jogos/dp/B07ZK6R8JF/ref=asc_df_B07ZK6R8JF/?tag=googleshopp00-20&linkCode=df0&hvadid=379720486248&hvpos=&hvnetw=g&hvrand=5742233685079801786&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9047820&hvtargid=pla-843050075665&psc=1"> <button class="btn">Comprar</button> </a>
+    </article>
+    <article>
+      <img src="img/main3.png" alt="Produto 3">
+      <h2>Sharkoon Skiller SGH50</h2>
+      <p>R$ 129,90</p>
+      <p>headset fone ...</p>
+      <a href="https://www.amazon.co.uk/Sharkoon-Skiller-Hi-Res-Gaming-Headset/dp/B09N1D8HW7"> <button class="btn">Comprar</button> </a>
+    </article>
+  </section>
+
+  <section id="produtos">
+    <article>
+      <img src="img/fone1.png" alt="fone1">
+      <h2>Headset Gamer Warrior Volker 7.1 Surrond Usb Com Led Azul</h2>
+      <p>R$ 149,90</p>
+      <p>headset fone ...</p>
+      <a href="https://www.kabum.com.br/produto/98031/headset-gamer-warrior-volker-7-1-surrond-usb-com-led-azul-ph258?gclid=CjwKCAjwhJukBhBPEiwAniIcNdEl5ey2DS19KsAx1G9u6zLvTf3TA9X0kkHf6WJ_ff0-WgQJLWxoqBoC0QwQAvD_BwE"> <button class="btn">Comprar</button> </a>
+    </article>
+    <article>
+      <img src="img/hyper.png" alt="HyperX Cloud Alpha">
+      <h2>HyperX Cloud Alpha - Fone de ouvido sem fio para jogos</h2>
+      <p>R$ 165,00</p>
+      <p>headset fone ...</p>
+      <a href="https://www.kabum.com.br/produto/386864/headset-gamer-sem-fio-hyperx-cloud-alpha-som-surround-7-1-drivers-50mm-usb-300-horas-de-bateria-preto-e-vermelho-4p5d4aa?gclid=CjwKCAjwhJukBhBPEiwAniIcNSAkOriHXzmYhWwj-bTM4Zmhb7qZQQZngSMxxPD3UHUNXF1GcIIkwRoCUv8QAvD_BwE"> <button class="btn">Comprar</button> </a>
+    </article>
+  </section>
+
+  <footer id="contato">
+    <ul>
+      <li><a href="tel:+5551998509992">Telefone: (51) 99850-9992</a></li>
+      <li><a href="douglascanal1998@gmail.com">Email: douglascanal1998@gmail.com</a></li>
+    </ul>
+    <p>Siga-nos nas redes sociais:</p>
+    <ul>
+      <li><a href="https://www.facebook.com/douglas.vieira.1457/">Facebook</a></li>
+      <li><a href="https://www.tiktok.com/@douglas_vieiraoficial">Tiktok</a></li>
+      <li><a href="https://www.instagram.com/douglasvbr_oficial">Instagram</a></li>
+    </ul>
+    <p>&copy; 2023 DG Headsets. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

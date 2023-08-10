@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>formulario</h1>
+
+    <form action="arquivo.php" method="get" >
+        <hr><br>
+<input type="text"
+placeholder="digite seu nome aqui" required>
+<br><br>
+<input type="email" name="email"id="email"placeholder="email" required>
+<br><br>
+<input type="password" placeholder="senha" required>
+<br><br>
+<h2>selecione o animal que vc tem em casa</h2>
+<br><br>
+<input type="radio" id="dog" name="animal" value="cachorro">
+<label for="dog">Cachorro</label>
+<br><br>
+<input type="radio" id="cat" name="animal" value="gato">
+<label for="cat">gato</label>
+<br><br>
+<input type="radio" id="chicken" name="animal" value="galinha">
+<label for="chicken">galinha</label>
+<br><br>
+<h2>oque tem em casa</h2>
+
+<input id="item1" type="checkbox" name="item1" value="tv">
+<label for="item1">televisão</label>
+<br><br>
+<input id="item2" type="checkbox" name="item2" value="geladeira">
+<label for="item2">geladeira</label>
+<br><br>
+<input id="item3" type="checkbox" name="item3" value="brinquedos">
+<label for="item3">brinquedos</label>
+<br><br>
+
+<h2>escolha uma cor</h2>
+
+<select >
+<option value="rosa">rosa</option>
+<option value="azul">azul</option>
+<option value="marrom">marrom</option>
+<option value="amarelo">amarelo</option>
+<option value="laranja">laranja</option>
+<option value="preto">preto</option>
+</select>
+
+<h2>digite uma mensagem:</h2>
+<br><br>
+<textarea name="texto" id="texto" cols="30" rows="15"
+placeholder="digite aqui sua mensagem"></textarea>
+<br><br>
+<input type="submit" value="enviar">
+<br><br>
+
+
+    </form>
+    <hr><br>
+
+
+
+    <a href="index.html">voltar</a>
+</body>
+</html>

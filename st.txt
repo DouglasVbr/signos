@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <style>
+    /* Add your custom styles here */
+    body {
+      background-image: linear-gradient(to bottom, #727171, #000000);
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #a3313104;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ffcd00;
+    }
+
+    section {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    article {
+      text-align: center;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    article:hover {
+      transform: translateY(-5px);
+    }
+
+    article h2 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-size: 18px;
+      color: #333;
+    }
+
+    article p {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      color: #fff;
+      background: #ffcd00;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #ffa500;
+    }
+
+    footer {
+      background-color: #222;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    footer ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    footer ul li {
+      margin-right: 10px;
+    }
+
+    footer ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    footer ul li a:hover {
+      color: #ffcd00;
+    }
+
+    footer p {
+      font-size: 14px;
+    }
+  </style>
+  <title>DG Headsets</title>
+</head>
+<body>
+  <header>
+    <nav>
+
+      <img src="img/logo1.png.png" alt="Logo da Loja">
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#promocoes">Promoções</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="promocoes">
+    <article>
+      <img src="img/main1.png" alt="Produto1">
+      <h2>Headset Over-ear Preto Luz Led Rgb Microfone Gamer Jogos</h2>
+      <p>R$ 360,00</p>
+      <p>headset fone ...</p>
+      <button class="btn" onclick="comprarproduto1()">Comprar</button>
+
+      <script>
+      function comprarproduto1() {
+        // Redirecionar o usuário para a página do produto desejado
+        window.location.href = 'https://www.mercadolivre.com.br/headset-over-ear-preto-luz-led-rgb-microfone-gamer-jogos/p/MLB21895582?from=gshop&matt_tool=11660798&matt_word=&matt_source=google&matt_campaign_id=14303413658&matt_ad_group_id=125984293877&matt_match_type=&matt_network=g&matt_device=c&matt_creative=539354956710&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735098639&matt_product_id=MLB21895582-product&matt_product_partition_id=1799294727776&matt_target_id=aud-1966489759667:pla-1799294727776&gclid=CjwKCAjwvpCkBhB4EiwAujULMszQLUSMhjsVhUB2KgHqf6vScmtm_0iQABWK9OyB0YsFZTKmwPTfbxoCaQIQAvD_BwE';
+      }
+      </script>
+      
+    </article>
+    <article>
+      <img src="img/main2.png" alt="Produto 2">
+      <h2>Headset Razer Kraken Ultimate Usb</h2>
+      <p>R$ 199,00</p>
+      <p>headset fone ...</p>
+      <button class="btn" onclick="comprarproduto2()">Comprar</button>
+
+      <script>
+      function comprarproduto2() {
+        // Redirecionar o usuário para a página do produto desejado
+        window.location.href = 'https://www.kabum.com.br/produto/94731/headset-gamer-sem-fio-razer-thresher-wireless-som-surround-7-1-xbox-series-e-pc-drivers-50mm-rz04-02240100-r3u1?gclid=CjwKCAjwvpCkBhB4EiwAujULMqqoKOQo5W0TW_JQrNFVdLDEoVgIRzDGYDJ02lOYjb1OT_V9njsP6RoCxSkQAvD_BwE';
+      }
+      </script>
+    </article>
+    <article>
+      <img src="img/main3.png" alt="Produto 3">
+      <h2>Sharkoon Skiller SGH50</h2>
+      <p>R$ 129,90</p>
+      <p>headset fone ...</p>
+      <button class="btn" onclick="comprarproduto3()">Comprar</button>
+
+      <script>
+      function comprarproduto3() {
+        // Redirecionar o usuário para a página do produto desejado
+        window.location.href = 'https://www.amazon.co.uk/Sharkoon-Skiller-Hi-Res-Gaming-Headset/dp/B09N1D8HW7';
+      }
+      </script>
+    </article>
+  </section>
+
+  <section id="produtos">
+    <article>
+      <img src="img/fone1.png" alt="fone1">
+      <h2>Headset Gamer Warrior Volker 7.1 Surrond Usb Com Led Azul</h2>
+      <p>R$ 149,90</p>
+      <p>headset fone ...</p>
+      <button class="btn" onclick="comprarfone1()">Comprar</button>
+
+      <script>
+      function comprarfone1() {
+        // Redirecionar o usuário para a página do produto desejado
+        window.location.href = 'https://www.kabum.com.br/produto/98031/headset-gamer-warrior-volker-7-1-surrond-usb-com-led-azul-ph258?gclid=CjwKCAjwvpCkBhB4EiwAujULMp6TftveejWw9RawxVqqFiT61cNovKv3KwYm0iAgpr3QP3RZH21mshoCQ2UQAvD_BwE';
+      }
+      </script>
+    </article>
+    <article>
+      <img src="img/hyper.png" alt="fone2">
+      <h2>HyperX Cloud Alpha - Fone de ouvido sem fio para jogos</h2>
+      <p>R$ 165,00</p>
+      <p>headset fone ...</p>
+      <button class="btn" onclick="comprarfone2()">Comprar</button>
+
+      <script>
+      function comprarfone2() {
+        // Redirecionar o usuário para a página do produto desejado
+        window.location.href = 'https://www.amazon.com.br/Headset-HyperX-Microfones-ouvido-Vermelho/dp/B074NBSF9N/ref=asc_df_B074NBSF9N/?tag=googleshopp00-20&linkCode=df0&hvadid=379720486248&hvpos=&hvnetw=g&hvrand=855373145129930360&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9102447&hvtargid=pla-434383799193&psc=1';
+      }
+      </script>
+    </article>
+  </section>
+
+  <footer id="contato">
+    <ul>
+      <li><a href="tel:+5551998509992">Telefone: (51) 99850-9992</a></li>
+      <li><a href="douglascanal1998@gmail.com">Email: douglascanal1998@gmail.com</a></li>
+    </ul>
+    <p>Siga-nos nas redes sociais:</p>
+    <ul>
+      <li><a href="https://www.facebook.com/douglas.vieira.1457/">Facebook</a></li>
+      <li><a href="https://www.tiktok.com/@douglas_vieiraoficial">Tiktok</a></li>
+      <li><a href="https://www.instagram.com/douglasvbr_oficial">Instagram</a></li>
+    </ul>
+    <p>&copy; 2023 DG Headsets. Todos os direitos reservados.</p>
+  </footer>
+  
+</body>
+</html>
+

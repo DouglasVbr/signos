@@ -1,0 +1,55 @@
+exercicio 1
+
+package vetores;
+
+public class Vetores {
+
+    public static void somavetor() {
+
+        int[] somavetor = {1, 2, 3};
+        int[] somavetor1 = {3, 4, 6};
+        int[] somavetor2 = {4, 6, 9};
+        int i;
+
+        for (i = 0; i < somavetor.length; i++) {
+            somavetor2[i] = somavetor1[i] + somavetor[i];
+            System.out.println("a soma é " + somavetor2[i]);
+
+        }
+
+    }
+
+    public static void main(String[] args) {
+        somavetor();
+    }
+
+}
+
+
+exercicio 2
+
+
+package vetores;
+
+public class Vetores {
+
+    public static double calcularmedia(double[] media) {
+
+        double calculo = 0;
+        int i;
+
+        for (i = 0; i < media.length; i++) {
+            calculo += media[i] /2 ;
+            System.out.println("a media é" + calculo);
+        }
+        return calculo / media.length;
+    }
+
+    public static void main(String[] args) {
+        double vetor[] = {3, 7, 8.7};
+        double calcu = calcularmedia(vetor);
+        System.out.println("média é " + calcu);
+
+    }
+}
+

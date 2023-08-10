@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu Portfólio</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background-color: #aaa7a7;
+      color: #080808;
+      margin: 0;
+    }
+    h1 {
+      color: #000;
+      font-weight: bold;
+    }
+    h2 {
+      color: #000;
+      font-weight: bold;
+    }
+    p {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    ul {
+      list-style: none;
+    }
+    ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    ul li a {
+      color: #000;
+      text-decoration: none;
+    }
+    img {
+      border-radius: 50%;
+    }
+    h1, h2, h3 {
+      border-bottom: 1px dashed #000000;
+      padding-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    <img src="eu.png" alt="Minha Foto" width="100" height="100">
+    <H1>NOME: DOUGLAS VIEIRA</H1>
+  </h1>
+  
+  <h2>Diretor de TI</h2>
+  
+  <p>e-mail: douglascanal1998@gmail.com</p>
+  <p>telefone: (51) 998509992</p>
+
+  <ul>
+    <li><a href="https://www.facebook.com/douglas.vieira.1457/"><img src="facebook.jpg" alt="facebook"></a></li>
+    <li><a href="https://www.instagram.com/douglasvbr_oficial"><img src="instagram.png" alt="instagram"></a></li>
+    <li><a href="https://www.tiktok.com/@douglas_vieiraoficial"><img src="tiktok.png" alt="tiktok"></a></li>
+  </ul>
+
+  <h2>Sobre Mim</h2>
+  <p>Trabalho como diretor de TI há mais de 15 anos, sou excepcional no ramo que exerço, sou um ótimo ouvinte, extremamente prestativo, sou um ótimo capitão de equipe.</p>
+
+  <h2>Projetos</h2>
+  <ul>
+    <li>
+      <h3>Fortnite</h3>
+      <p>Fortnite é um jogo eletrônico multijogador online revelado originalmente em 2011, desenvolvido pela Epic Games e lançado como diferentes modos de jogo que compartilham a mesma jogabilidade e motor gráfico de jogo.</p>
+    </li>
+    <li>
+      <h3>League of Legends</h3>
+      <p>League of Legends é um jogo eletrônico do gênero multiplayer online battle arena desenvolvido e publicado pela Riot Games. Foi lançado em outubro de 2009 para Microsoft Windows e em março de 2013 para macOS.</p>
+    </li>
+  </ul>
+
+  <h2>Experiência</h2>
+  <ul>
+    <li>
+      <h3>Epic Games/Warner Bros. Interactive Entertainment</h3>
+      <p>Diretor de Projetos - janeiro de 2014 até janeiro de 2017</p>
+      <p>Gerente de projetos assegurar que o projeto fique dentro do escopo, do custo e do prazo acordados, monitorar os indicadores dos projetos, obter, selecionar e adquirir recursos humanos, financeiros e materiais, coordenar as partes interessadas, gerenciar conflitos, comunicar decisões e resultados.</p>
+    </li>
+    <li>
+      <h3>Riot Games/ West Los Angeles, Califórnia, EUA</h3>
+      <p>Diretor de Desenvolvimento - março de 2017 até ano atual</p>
+      <p>Ele cuida da execução de um projeto, definindo papéis, delegando tarefas e acompanhando e documentando o desenvolvimento das atividades.</p>
+    </li>
+  </ul>
+</body>
+</html>

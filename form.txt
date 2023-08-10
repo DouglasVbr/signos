@@ -1,0 +1,305 @@
+
+   
+      Propriedades de Formulários HTML e suas
+
+               Aplicações
+
+
+               DOUGLAS VIEIRA
+                       
+            Data de entrega 18/06/2023
+            
+            
+Introdução: Os formulários são elementos essenciais em páginas da web, permitindo aos usuários interagir e enviar informações para os servidores. As propriedades de formulários em HTML fornecem recursos adicionais que melhoram a usabilidade, validação de dados e fornecem dicas visuais aos usuários. Neste relatório, discutiremos algumas das propriedades dos formulários mais comumente usados e suas aplicações práticas.
+            
+            
+            
+            
+            
+            
+
+
+1. required: Indica que um campo deve ser preenchido antes do envio do formulário. Ao adicionar esse atributo a um elemento de entrada como <input> ou <select>, você pode garantir que o usuário forneça os dados necessários.
+
+Exemplo: 
+
+<input type="text" required>
+
+
+2. placeholder: Exibe um texto de exemplo em um campo de texto, indicando o formato esperado. Essa propriedade pode ser usada para fornecer dicas visuais aos usuários sobre o tipo de informação que devem inserir.
+
+Exemplo: 
+
+<input type="text" placeholder="Digite seu nome">
+
+3. disabled: Desativa um campo de formulário, impedindo que o usuário interaja com ele. Isso pode ser útil quando um campo é necessário apenas para visualização de informações.
+
+Exemplo: 
+
+<input type="text" disabled>
+
+
+4. maxlength: Limita o número máximo de caracteres que podem ser inseridos em um campo de texto. Isso pode ser útil para campos com um limite de caracteres específico, como um campo para inserir um código de promoção.
+
+Exemplo: 
+
+<input type="text" maxlength="10">
+
+
+5. pattern: Define um padrão de validação usando uma expressão regular para verificar a entrada do usuário. Isso permite que você verifique se os dados estão no formato correto antes de enviar o formulário.
+
+Exemplo: 
+
+<input type="text" pattern="[A-Za-z]{3}">
+
+
+Nesse exemplo, o campo só aceita letras com exatamente três caracteres.
+
+6. autocomplete: Especifica se um campo deve ter a funcionalidade de autocompletar ativada. Isso pode facilitar o preenchimento de formulários repetidos, como um formulário de registro.
+
+Exemplo: 
+
+<input type="text" autocomplete="on">
+
+
+7. autofocus: Define que um campo deve receber automaticamente o foco quando a página é carregada. Isso pode ser útil para campos que você deseja que o usuário comece imediatamente ao abrir o formulário.
+
+Exemplo: 
+<input type="text" autofocus>
+
+
+8. readonly: Torna um campo de formulário somente leitura, impedindo que o usuário o edite. Isso é útil quando você deseja exibir informações que não devem ser modificadas.
+
+Exemplo: 
+
+<input type="text" value="Valor somente leitura" readonly>
+
+
+9. multiple: Permite que o usuário selecione várias opções em um campo de seleção (<select>). Isso pode ser usado quando você deseja permitir que o usuário selecione várias opções em um único campo.
+
+Exemplo: 
+
+<select multiple>
+    <option value="opcao1">Opção 1</option>
+    <option value="opcao2">Opção 2</option>
+    <option value="opcao3">Opção 3</option>
+</select>
+
+
+10. checked: Marca um elemento de opção (<input type="checkbox"> ou <input type="radio">) como selecionado por padrão. Isso pode ser usado quando você deseja que uma opção seja pré-selecionada quando o formulário é carregado.
+
+Exemplo: 
+
+<input type="checkbox" checked>
+
+1. required: Essa propriedade indica que um campo deve ser preenchido antes do envio do formulário. Ela pode ser aplicada a elementos de entrada como <input> e <select>, garantindo que o usuário forneça os dados necessários.
+
+   Exemplo de uso: `<input type="text" required>`
+
+2. placeholder: Essa propriedade exibe um texto de exemplo em um campo de texto, indicando o formato esperado. Ela fornece dicas visuais aos usuários sobre o tipo de informação que devem inserir.
+
+   Exemplo de uso: <input type="text" placeholder="Digite seu nome">
+
+3. disabled: Essa propriedade desativa um campo de formulário, impedindo que o usuário interaja com ele. Isso é útil quando um campo é necessário apenas para visualização de informações.
+
+   Exemplo de uso: <input type="text" disabled>
+
+4. maxlength: Essa propriedade limita o número máximo de caracteres que podem ser inseridos em um campo de texto. Ela é útil para campos com um limite de caracteres específico, como um campo para inserir um código de promoção.
+
+   Exemplo de uso: <input type="text" maxlength="10">
+
+5. pattern: Essa propriedade define um padrão de validação usando uma expressão regular para verificar a entrada do usuário. Ela permite que você verifique se os dados estão no formato correto antes de enviar o formulário.
+
+   Exemplo de uso: <input type="text" pattern="[A-Za-z]{3}">
+
+   Nesse exemplo, o campo só aceita letras com exatamente três caracteres.
+
+6. autocomplete: Essa propriedade especifica se um campo deve ter a funcionalidade de autocompletar ativada. Isso facilita o preenchimento de formulários repetidos, como um formulário de registro.
+
+   Exemplo de uso: <input type="text" autocomplete="on">
+
+7. autofocus: Essa propriedade define que um campo deve receber automaticamente o foco quando a página é carregada. Isso é útil para campos nos quais você deseja que o usuário comece a digitar imediatamente ao abrir o formulário.
+
+   Exemplo de uso: <input type="text" autofocus>
+
+8. readonly: Essa propriedade torna um campo de formulário somente leitura, impedindo que o usuário o edite. Isso é útil para exibir informações que não devem ser modificadas.
+
+   Exemplo de uso: <input type="text" value="Valor somente leitura" readonly>
+
+9. multiple: Essa propriedade permite que o usuário selecione várias opções em um campo de seleção (<select>). Ela pode ser usada quando você deseja permitir que o usuário selecione várias opções em um único campo.
+
+   Exemplo de uso:
+   
+   <select multiple>
+       <option value="opcao1">Opção 1</option>
+       <option value="opcao2">Opção 2</option>
+       <option value="opcao3">Opção 3</option>
+   </select>
+   
+
+10. checked: Essa propriedade marca um elemento de opção (<input type="checkbox"> ou <input type="radio">) como selecionado por padrão. Isso pode ser usado quando você deseja que uma opção seja pré-selecionada quando o formulário é carregado.
+
+   Exemplo de uso: <input type="checkbox" checked>
+
+
+
+1. Exemplo de uso da propriedade required em um campo de texto (<input type="text">):
+<label for="name">Nome:</label>
+<input type="text" id="name" name="name" required>
+
+Nesse exemplo, o atributo required indica que o campo de texto chamado "name" é obrigatório. Isso significa que o usuário deve preenchê-lo antes de enviar o formulário.
+
+2. Exemplo de uso da propriedade placeholder em um campo de texto:
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="exemplo@dominio.com">
+
+Aqui, o atributo placeholder exibe um texto de exemplo dentro do campo de texto. Ele fornece uma indicação visual para os usuários sobre o formato esperado do email.
+
+3. Exemplo de uso da propriedade disabled em um campo de seleção (<select>):
+<label for="country">País:</label>
+<select id="country" name="country" disabled>
+   <option value="brasil">Brasil</option>
+   <option value="eua">Estados Unidos</option>
+   <option value="inglaterra">Inglaterra</option>
+</select>
+
+Nesse exemplo, o atributo disabled desabilita o campo de seleção, impedindo que o usuário faça alterações nele. O campo é apenas para visualização de informações.
+
+4. Exemplo de uso da propriedade maxlength em um campo de texto:
+<label for="message">Mensagem:</label>
+<textarea id="message" name="message" maxlength="200"></textarea>
+
+Aqui, o atributo maxlength limita o número máximo de caracteres que podem ser inseridos no campo de texto. O usuário só pode digitar até 200 caracteres.
+
+5. Exemplo de uso da propriedade pattern em um campo de texto:
+
+<label for="phone">Telefone:</label>
+<input type="text" id="phone" name="phone" pattern="\d{3}-\d{4}">
+
+Nesse exemplo, o atributo pattern define um padrão de validação usando uma expressão regular. Ele verifica se o telefone fornecido pelo usuário está no formato correto, que no caso é "XXX-XXXX".
+
+6. Exemplo de uso da propriedade multiple em um campo de seleção (<select>):
+
+<label for="languages">Idiomas:</label>
+<select id="languages" name="languages" multiple>
+   <option value="en">Inglês</option>
+   <option value="es">Espanhol</option>
+   <option value="fr">Francês</
+
+
+
+As propriedades de formulários têm várias aplicações práticas em diferentes cenários, como formulários de login, formulários de registro, formulários de pesquisa, formulários de feedback, entre outros. 
+
+1. Formulários de login:
+   - A propriedade "required" pode ser usada para garantir que os campos de entrada do login não sejam deixados em branco.
+   - A propriedade "autocomplete" pode ajudar os usuários a preencher seus dados de login com mais facilidade, sugerindo entradas baseadas em dados armazenados anteriormente.
+
+2. Formulários de registro:
+   - A propriedade "pattern" pode ser usada para impor um formato específico para campos como e-mail ou número de telefone.
+   - A propriedade "minlength" e "maxlength" podem limitar o comprimento mínimo e máximo dos campos.
+   - A propriedade "pattern" e "title" podem ser usadas para fornecer dicas visuais aos usuários sobre o formato correto dos dados a serem inseridos.
+
+3. Formulários de pesquisa:
+   - A propriedade "placeholder" pode ser usada para fornecer instruções e exemplos de pesquisa aos usuários.
+   - A propriedade "autofocus" pode ajudar a direcionar automaticamente o foco para o campo de pesquisa, facilitando a digitação dos usuários.
+
+4. Formulários de feedback:
+   - A propriedade "required" pode garantir que o campo de feedback não seja enviado em branco.
+   - A propriedade "maxlength" pode limitar o tamanho máximo do campo de feedback para um tamanho razoável.
+   - A propriedade "placeholder" pode ser usada para fornecer sugestões e diretrizes para os usuários enquanto eles escrevem seu feedback.
+
+As propriedades mencionadas acima melhoram a usabilidade, pois fornecem validação de dados, dicas visuais e instruções aos usuários, tornando o preenchimento dos formulários mais intuitivo e fácil de entender.
+
+
+
+
+1. Propriedade input:
+
+A propriedade input é uma das mais utilizadas em formulários HTML. Ela permite aos usuários inserir dados em diferentes formatos, como texto, número, data, e-mail, etc.
+
+Exemplo de código HTML:
+
+<form>
+  <label for="name">Nome:</label>
+  <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+</form>
+
+https://www.devmedia.com.br/html-input-construindo-formularios-com-html/43493
+
+
+2. Propriedade select:
+
+A propriedade select é utilizada quando o usuário precisa selecionar uma opção de um conjunto pré-definido de valores.
+
+Exemplo de código HTML:
+
+<form>
+  <label for="fruit">Fruta preferida:</label>
+  <select id="fruit" name="fruit">
+    <option value="">Selecione uma opção</option>
+    <option value="apple">Maçã</option>
+    <option value="banana">Banana</option>
+    <option value="orange">Laranja</option>
+  </select>
+</form>
+
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/select
+
+3. Propriedade textarea:
+
+A propriedade `textarea` permite ao usuário inserir um texto mais longo, como comentários ou descrições.
+
+Exemplo de código HTML:
+
+
+<form>  
+<label for="message">Mensagem:</label>
+  <textarea id="message" name="message" rows="4" cols="50" placeholder="Digite sua mensagem"></textarea>
+</form>
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/textarea
+
+4. Propriedade radio:
+
+A propriedade radio permite ao usuário selecionar uma única opção de um conjunto pré-definido de valores.
+
+Exemplo de código HTML:
+
+
+
+<form>
+  <label for="gender">Gênero:</label>
+  <input type="radio" id="gender" name="gender" value="male">Masculino
+  <input type="radio" id="gender" name="gender" value="female">Feminino
+</form>
+
+
+https://www.htmlprogressivo.net/2014/01/Campos-de-selecao-Radio-Button-Checkbox-em-Formularios.html
+
+5. Propriedade checkbox:
+
+A propriedade checkbox permite ao usuário selecionar uma ou mais opções de um conjunto pré-definido de valores.
+
+Exemplo de código HTML:
+
+
+
+
+
+
+<form>
+  <label for="hobbies">Hobbies:</label>
+  <input type="checkbox" id="hobbies" name="hobbies" value="reading">Leitura
+  <input type="checkbox" id="hobbies" name="hobbies" value="painting">Pintura
+  <input type="checkbox" id="hobbies" name="hobbies" value="gaming">Jogos
+</form>
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/input/checkbox
+
+
+
+

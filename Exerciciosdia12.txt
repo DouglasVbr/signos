@@ -1,0 +1,103 @@
+Exercicio1
+package exercicios12;
+
+import java.util.Random;
+
+//@autor Douglas
+public class Exercicios12 {
+
+    public static void main(String[] args) {
+
+        int[] numeros = new int[10];
+        Random random = new Random();
+
+        // preenche o vetor com números aleatórios entre 1 e 100
+        for (int i = 0; i < numeros.length; i++) {
+
+            numeros[i] = random.nextInt(100) + 1;
+            System.out.println("numeros pares no vetor" );
+
+        }
+
+        
+        for (int i = 0; i < numeros.length; i++) {
+            if (numeros[i] % 2 == 0) {
+                System.out.println(  numeros[i] );
+            
+            }
+
+        }
+
+    }
+
+Exercicio2
+
+
+package exercicios12;
+
+import java.util.Scanner;
+
+//@autor Douglas
+public class Exercicios12 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        int[] um = new int[5];
+        int[] dois = new int[5];
+        int[] soma = new int[5];
+
+        System.out.println("Digite os elementos do primeiro vetor: ");
+        for (int i = 0; i < 5; i++) {
+            um[i] = scanner.nextInt();
+        }
+
+        System.out.println("Digite os elementos do segundo vetor: ");
+        for (int i = 0; i < 5; i++) {
+            dois[i] = scanner.nextInt();
+        }
+
+        for (int i = 0; i < 5; i++) {
+            soma[i] = um[i] + dois[i];
+        }
+
+        System.out.println("A soma dos vetores é: ");
+        for (int i = 0; i < 5; i++) {
+            System.out.println("posição " + i + " : " + soma[i]);
+        }
+    }
+}
+
+
+3.O que são vetores em programação?
+São um tipo de variáveis que armazena  uma linhagem de tipos como int, char, String e etc em colunas
+
+
+4.Qual é a sintaxe para declarar um vetor em Java?
+int[] 
+double[] 
+String[] 
+boolean[] 
+Char[]
+
+5.Como acessar um elemento específico de um vetor em Java?
+
+Usando uma sintaxe do tipo que pedir como 
+ int[] um = new int[5];
+
+6.Como percorrer todos os elementos de um vetor em Java usando um loop? 
+
+int[] vetor = {1, 2, 3, 4, 5};
+
+for (int i = 0; i < vetor.length; i++) {
+
+    int elemento = vetor[i];
+   
+    System.out.println(elemento);
+}
+
+
+
+
+
+

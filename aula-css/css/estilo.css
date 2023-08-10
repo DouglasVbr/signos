@@ -1,0 +1,60 @@
+body{
+background: #ccc;
+
+
+}
+.centro{
+
+    color: red;
+    text-align: center;
+    background: white;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+
+}
+*{padding: 20px;}
+
+h1,h2,h3{
+color: red;
+text-align: center;
+margin-top: 50px;
+margin-left: 30px;
+
+}
+.fundo{
+    height: 100px;
+    background-image: url("../css/img/fundo.jpg");
+    background-size:cover;
+    margin-bottom: 100px;
+}
+
+.botao{
+    margin-left: 33%;
+    background: green;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+    }
+    .botao:hover{
+
+        background: blue;
+    }
+    .teste{
+
+        
+        height: 50px;
+        background: cyan;
+        max-width: 800px;
+    }
+
+
+
+    
+    
+

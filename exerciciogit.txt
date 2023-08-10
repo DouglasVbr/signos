@@ -1,0 +1,229 @@
+
+Douglas@DESKTOP-VC4AHHQ MINGW64 ~/Desktop
+$ ls
+ DS4Windows.exe*                                 'WPS PDF.lnk'*
+ Discord.lnk*                                    'WhatsApp Desktop.lnk'*
+'Fallout Shelter.url'                             app.html
+'Google Drive.lnk'*                               desktop.ini
+'Lively Wallpaper.lnk'*                           form.txt
+'New Folder'/                                     formulario.pdf
+'PC Health Check.lnk'*                           'meu jogo'/
+ PS_AIO_C4200_NonNet_Full_Win_WW_140_404-4.exe*   meusprojetos/
+'Streamlabs OBS'/                                'obs live'/
+ Tipspace.lnk*                                   'papel de parede'/
+ VISUALG30.INI                                    projetos/
+'Visual Studio Code.lnk'*                         siteweb/
+'WPS Office.lnk'*                                 visualg30.exe*
+
+Douglas@DESKTOP-VC4AHHQ MINGW64 ~/Desktop
+$ cd siteweb/
+
+Douglas@DESKTOP-VC4AHHQ MINGW64 ~/Desktop/siteweb
+$ ls
+exer.txt         exercicioportifolio.txt  index.html/  responsivo.txt    st.txt
+exercicio/       exercicios.txt           noticias/    sitedefone.png
+exercicio12.txt  img/                     portifolio/  sitedevendas.txt
+
+Douglas@DESKTOP-VC4AHHQ MINGW64 ~/Desktop/siteweb
+$ git init
+Initialized empty Git repository in C:/Users/Douglas/Desktop/siteweb/.git/
+
+Douglas@DESKTOP-VC4AHHQ MINGW64 ~/Desktop/siteweb (master)
+$ git add .
+warning: in the working copy of 'index.html/img/ssd.png', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/OneSignalPageSDKES6.js.download', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/OneSignalSDK.js.download', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/OneSignalSDKStyles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/f.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/facebook.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/info.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/ld.js.download', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/linkedin.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/loading.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/messenger.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/native-push-sdk.js.download', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/pinterest.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/saved_resource.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/sharethis.js.download', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/sslblindado.js.download', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/twitter.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/whatsapp.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html/img/ssd_files/worker-new.html', LF will be replaced by CRLF the next time Git touches it
+warning: adding embedded git repository: portifolio
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> portifolio
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached portifolio
+hint:
+hint: See "git help submodule" for more information.
+
+Douglas@DESKTOP-VC4AHHQ MINGW64 ~/Desktop/siteweb (master)
+$ git commit -m "exemplo"
+[master (root-commit) a01a47d] exemplo
+ 136 files changed, 14274 insertions(+)
+ create mode 100644 .vscode/settings.json
+ create mode 100644 exer.txt
+ create mode 100644 exercicio/autenticar.php
+ create mode 100644 exercicio/index.html
+ create mode 100644 exercicio/processar.php
+ create mode 100644 exercicio/relultado.html
+ create mode 100644 exercicio12.txt
+ create mode 100644 exercicioportifolio.txt
+ create mode 100644 exercicios.txt
+ create mode 100644 img/carreteiro.png
+ create mode 100644 img/cristo.png
+ create mode 100644 img/estatua.png
+ create mode 100644 img/eu1.png
+ create mode 100644 img/eu2.png
+ create mode 100644 img/feito.png
+ create mode 100644 img/filme1.png
+ create mode 100644 img/filme2.png
+ create mode 100644 img/filme3.png
+ create mode 100644 img/imagens.html
+ create mode 100644 img/lasanha.png
+ create mode 100644 img/minhaft.png
+ create mode 100644 img/pudim.png
+ create mode 100644 img/tarefaconcluida.png
+ create mode 100644 img/torre.png
+ create mode 100644 img/umbreon.png
+ create mode 100644 index.html/exercicio.html
+ create mode 100644 index.html/img/#.css
+ create mode 100644 index.html/img/fn.png.png
+ create mode 100644 index.html/img/fone.png
+ create mode 100644 index.html/img/fone1.png
+ create mode 100644 index.html/img/headset.png
+ create mode 100644 index.html/img/headset1.png
+ create mode 100644 index.html/img/hyper.png
+ create mode 100644 index.html/img/index.html
+ create mode 100644 index.html/img/logo1.png.png
+ create mode 100644 index.html/img/main1.png
+ create mode 100644 index.html/img/main2.png
+ create mode 100644 index.html/img/main3.png
+ create mode 100644 index.html/img/outro.png.png
+ create mode 100644 index.html/img/produto1.png
+ create mode 100644 index.html/img/ps4.png
+ create mode 100644 index.html/img/ps5.png
+ create mode 100644 index.html/img/ps51.png
+ create mode 100644 index.html/img/ssd.png
+ create mode 100644 index.html/img/ssd_files/0-fe33139d3cc8977b.js.download
+ create mode 100644 index.html/img/ssd_files/1874-32fb96b328f90ff7.js.download
+ create mode 100644 index.html/img/ssd_files/19-c8419ea3952bb4eb.js.download
+ create mode 100644 index.html/img/ssd_files/2113-6034d1b6de481eb9.js.download
+ create mode 100644 index.html/img/ssd_files/2125-46b6b045e953216c.js.download
+ create mode 100644 index.html/img/ssd_files/2324-ecb086b6cac59cc2.js.download
+ create mode 100644 index.html/img/ssd_files/321-03145677ec6508f1.js.download
+ create mode 100644 index.html/img/ssd_files/32d0d379b12a3d24.css
+ create mode 100644 index.html/img/ssd_files/4080-5b38babb7b615a01.js.download
+ create mode 100644 index.html/img/ssd_files/4926-869e35787720c223.js.download
+ create mode 100644 index.html/img/ssd_files/5180-c07e9570078159b5.js.download
+ create mode 100644 index.html/img/ssd_files/5420-d5e39452c5a49669.js.download
+ create mode 100644 index.html/img/ssd_files/5849-b049cf4ab838b3b6.js.download
+ create mode 100644 index.html/img/ssd_files/5916-2814733262e17e3e.js.download
+ create mode 100644 index.html/img/ssd_files/6144-519e3f3e01f83e20.js.download
+ create mode 100644 index.html/img/ssd_files/6243-cf3d7d7aa6810afb.js.download
+ create mode 100644 index.html/img/ssd_files/7189-c5bcb27e9f031f1e.js.download
+ create mode 100644 index.html/img/ssd_files/7479-5c29da3ff619f027.js.download
+ create mode 100644 index.html/img/ssd_files/7555-dd671c43ea6c315d.js.download
+ create mode 100644 index.html/img/ssd_files/8055-9c6d709dccfccb38.js.download
+ create mode 100644 index.html/img/ssd_files/868-12c064d7069b43a0.js.download
+ create mode 100644 index.html/img/ssd_files/8863-4c7be7898d8cafb5.js.download
+ create mode 100644 index.html/img/ssd_files/915-22a1f6a7fdbb0df8.js.download
+ create mode 100644 index.html/img/ssd_files/OneSignalPageSDKES6.js.download
+ create mode 100644 index.html/img/ssd_files/OneSignalSDK.js.download
+ create mode 100644 index.html/img/ssd_files/OneSignalSDKStyles.css
+ create mode 100644 index.html/img/ssd_files/[...slug]-4ba9149c9ea0bbff.js.download
+ create mode 100644 index.html/img/ssd_files/_app-93852ab7beefe3ca.js.download
+ create mode 100644 index.html/img/ssd_files/_buildManifest.js.download
+ create mode 100644 index.html/img/ssd_files/_middlewareManifest.js.download
+ create mode 100644 index.html/img/ssd_files/_ssgManifest.js.download
+ create mode 100644 index.html/img/ssd_files/a4c564604e62cdcc.css
+ create mode 100644 index.html/img/ssd_files/account-d5a24b659b17e1c4.js.download
+ create mode 100644 index.html/img/ssd_files/ae.png
+ create mode 100644 index.html/img/ssd_files/agammixs70b-4t-cs(1).jpg
+ create mode 100644 index.html/img/ssd_files/agammixs70b-4t-cs.jpg
+ create mode 100644 index.html/img/ssd_files/agammixs70b-4t-cs1.jpg
+ create mode 100644 index.html/img/ssd_files/agammixs70b-4t-cs2.jpg
+ create mode 100644 index.html/img/ssd_files/agammixs70b-4t-cs3.jpg
+ create mode 100644 index.html/img/ssd_files/applestore.svg
+ create mode 100644 index.html/img/ssd_files/cart-a31180f67d219318.js.download
+ create mode 100644 index.html/img/ssd_files/dn.png
+ create mode 100644 index.html/img/ssd_files/elo.png
+ create mode 100644 index.html/img/ssd_files/f.txt
+ create mode 100644 index.html/img/ssd_files/facebook.svg
+ create mode 100644 index.html/img/ssd_files/favorites-a414fee0c1b8e8a7.js.download
+ create mode 100644 index.html/img/ssd_files/framework-d9c9992982ceff03.js.download
+ create mode 100644 index.html/img/ssd_files/getSelo.js.download
+ create mode 100644 index.html/img/ssd_files/hyper.png
+ create mode 100644 index.html/img/ssd_files/index-8aa11f3be377f9a3.js.download
+ create mode 100644 index.html/img/ssd_files/info.js.download
+ create mode 100644 index.html/img/ssd_files/info.min.css
+ create mode 100644 index.html/img/ssd_files/ins.js.download
+ create mode 100644 index.html/img/ssd_files/js
+ create mode 100644 index.html/img/ssd_files/ld.js.download
+ create mode 100644 index.html/img/ssd_files/linkedin.svg
+ create mode 100644 index.html/img/ssd_files/loading.svg
+ create mode 100644 index.html/img/ssd_files/logo-pichau-2021-dark.png
+ create mode 100644 index.html/img/ssd_files/main-1b270652d63bc702.js.download
+ create mode 100644 index.html/img/ssd_files/mc.png
+ create mode 100644 index.html/img/ssd_files/messenger.svg
+ create mode 100644 index.html/img/ssd_files/native-push-sdk.js.download
+ create mode 100644 index.html/img/ssd_files/opt-in-dialog.css
+ create mode 100644 index.html/img/ssd_files/pinterest.svg
+ create mode 100644 index.html/img/ssd_files/playstore.svg
+ create mode 100644 index.html/img/ssd_files/polyfills-a40ef1678bae11e696dba45124eadd70.js.download
+ create mode 100644 index.html/img/ssd_files/product.css
+ create mode 100644 index.html/img/ssd_files/register-20879313ea5b172f.js.download
+ create mode 100644 index.html/img/ssd_files/saved_resource.html
+ create mode 100644 index.html/img/ssd_files/sharethis.js.download
+ create mode 100644 index.html/img/ssd_files/sslblindado.js.download
+ create mode 100644 index.html/img/ssd_files/twitter.svg
+ create mode 100644 index.html/img/ssd_files/vi.png
+ create mode 100644 index.html/img/ssd_files/webpack-5a26de4e2a6d45dd.js.download
+ create mode 100644 index.html/img/ssd_files/whatsapp.svg
+ create mode 100644 index.html/img/ssd_files/widget.js.download
+ create mode 100644 index.html/img/ssd_files/worker-new.html
+ create mode 100644 index.html/img/xbox.png
+ create mode 100644 index.html/img/zflip.png
+ create mode 100644 index.html/index.html
+ create mode 100644 noticias/futebol.png
+ create mode 100644 noticias/gremio.png
+ create mode 100644 noticias/index.html
+ create mode 100644 noticias/noticia1.pnj.avif
+ create mode 100644 noticias/noticia2.png
+ create mode 100644 noticias/pudim.png
+ create mode 100644 noticias/salpicao.png
+ create mode 160000 portifolio
+ create mode 100644 responsivo.txt
+ create mode 100644 sitedefone.png
+ create mode 100644 sitedevendas.txt
+ create mode 100644 st.txt
+
+Douglas@DESKTOP-VC4AHHQ MINGW64 ~/Desktop/siteweb (master)
+$ git remote add origin https://github.com/DouglasVbr/exemplo.git
+
+Douglas@DESKTOP-VC4AHHQ MINGW64 ~/Desktop/siteweb (master)
+$ git push -u origin master
+Enumerating objects: 142, done.
+Counting objects: 100% (142/142), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (139/139), done.
+Writing objects: 100% (142/142), 2.67 MiB | 3.83 MiB/s, done.
+Total 142 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/DouglasVbr/exemplo/pull/new/master
+remote:
+To https://github.com/DouglasVbr/exemplo.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Douglas@DESKTOP-VC4AHHQ MINGW64 ~/Desktop/siteweb (master)

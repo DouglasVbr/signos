@@ -1,0 +1,768 @@
+1
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    html, body {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 400px;
+      padding: 40px;
+      border-radius: 4px;
+      background-color: #fff;
+      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    /* Estilo para o campo label */
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    /* Estilo para o campo input */
+    input {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      background-color: #f5f5f5;
+      font-size: 16px;
+    }
+    
+    input:focus {
+      outline: none;
+      border-color: #4CAF50;
+    }
+
+    /* Estilo para a caixa de seleção */
+    input[type="checkbox"] {
+      display: inline-block;
+      width: auto;
+      margin-right: 5px;
+    }
+    
+    /* Estilo para a caixa de seleção quando marcada */
+    input[type="checkbox"]:checked {
+      background-color: #4CAF50;
+    }
+
+    /* Estilo para o botão de envio */
+    button[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+   
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+
+  <title>1</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <h1>Formulário</h1>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" required>
+
+    <label for="confSenha">Confirmação de Senha:</label>
+    <input type="password" id="confSenha" name="confSenha" required>
+
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" name="idade">
+
+    <label for="aceite">
+      <input type="checkbox" id="aceite" name="aceite" required checked>
+      Aceito os termos e condições
+    </label>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
+ 
+
+2
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+    <style>
+        html {
+            height: 100%;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            background-color: #2b2929;
+            color: #cfe2f3;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #968787;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        fieldset {
+            margin-bottom: 20px;
+        }
+        
+        label, input, textarea {
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #2b2929;
+        }
+        
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        button[type="submit"] {
+            background-color: #2b2929;
+            color: #9aa7b3;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }   
+        button[type="submit"]:hover {
+            background-color: #1a1a1a;
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <fieldset>
+            <legend>Gênero:</legend>
+            <input type="radio" id="masculino" name="genero" value="masculino" required>
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" id="feminino" name="genero" value="feminino" required>
+            <label for="feminino">Feminino</label>
+
+            <input type="radio" id="outro" name="genero" value="outro" required>
+            <label for="outro">Outro</label>  
+        </fieldset>
+
+        <fieldset>
+            <legend>Interesses:</legend>
+            <input type="checkbox" id="esportes" name="interesses" value="esportes">
+            <label for="esportes">Esportes</label>
+
+            <input type="checkbox" id="arte" name="interesses" value="arte">
+            <label for="arte">Arte</label>
+
+            <input type="checkbox" id="tecnologia" name="interesses" value="tecnologia">
+            <label for="tecnologia">Tecnologia</label> 
+        </fieldset>
+
+        <label for="comentarios">Comentários:</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+
+
+
+3 
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Formulário de Contato</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      background-color: #333;
+      color: #fff;
+    }
+
+    select {
+      appearance: none;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    button[type="submit"] {
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Formulário de Contato</h1>
+  <form>
+    <div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="assunto">Assunto:</label>
+      <select id="assunto" name="assunto" required>
+        <option value="">Selecione</option>
+        <option value="suporte">Suporte</option>
+        <option value="tecnico">Técnico</option>
+        <option value="financeiro">Financeiro</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit">Enviar</button>
+    </div>
+  </form>
+</body>
+
+</html>
+
+
+4
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pedido</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin: 0 0 20px 0;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+        select option {
+            background-color: #fff;
+        }
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        textarea {
+            height: 120px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Pedido</h1>
+        <form action="processar_pedido.php" method="POST">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div>
+                <label for="endereco">Endereço de entrega:</label>
+                <textarea id="endereco" name="endereco" required></textarea>
+            </div>
+            <div>
+                <label for="tamanho">Tamanho da Pizza:</label>
+                <select id="tamanho" name="tamanho">
+                    <option value="pequena">Pequena</option>
+                    <option value="media">Média</option>
+                    <option value="grande">Grande</option>
+                </select>
+            </div>
+            <div>
+                <label>Toppings:</label>
+                <div>
+                    <input type="checkbox" id="queijo" name="queijo" value="queijo">
+                    <label for="queijo">Queijo</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni">
+                    <label for="pepperoni">Pepperoni</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="champignon" name="champignon" value="champignon">
+                    <label for="champignon">Champignon</label>
+                </div>
+            </div>
+            <div>
+                <label for="observacoes">Observações adicionais:</label>
+                <textarea id="observacoes" name="observacoes"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+5
+
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TELA DE LOGIN</title>
+  <STyle>
+body{ 
+  font-family: Arial, Helvetica, sans-serif ;
+background-image: linear-gradient(50deg, rgb(111, 50, 168), yellow);
+}
+div {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  border-radius: 15px;
+color: white;
+  }
+input {padding: 15px; border: none; outline: none;
+  font-size: 15px;
+}
+button{
+
+  background-color: rgb(87, 45, 134);
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 15px;
+  color:white;
+  font-size: 15px;
+}
+button:hover{
+  background-color: rgb(89, 13, 189);
+
+}
+</STyle>
+
+</head>
+<body>
+  <div class="container">
+    <h2> Login</h2>
+    <form action="processar_login.php" method="POST">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br><br>
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required>
+      <br><br>
+      <label for="lembrar">Lembrar-me:</label>
+      <input type="checkbox" id="lembrar" name="lembrar">
+      <br>
+      <input type="submit" value="Entrar">
+    </form>
+  </div>
+</body>
+</html>
+
+
+
+Exercício: Formulário de Pesquisa (Método GET)
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pesquisa</title>
+</head>
+<body>
+    <h1>Formulário de Pesquisa</h1>
+    
+    <form action="resultado.html" method="get">
+        <label for="termo">Termo de Pesquisa:</label>
+        <input type="text" id="termo" name="termo" required>
+        <br>
+        <input type="submit" value="Pesquisar">
+    </form>
+</body>
+</html>
+ 
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados da Pesquisa</title>
+</head>
+<body>
+    <h1>Resultados da Pesquisa</h1>
+    
+    <script>
+        // Obtém o valor do parâmetro 'termo' da URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const termoPesquisa = urlParams.get('termo');
+        
+        // Exibe o termo de pesquisa na página
+        document.write("<p>Você pesquisou por: " + termoPesquisa + "</p>");
+    </script>
+</body>
+</html>
+
+Exercício: Formulário de Login (Método POST)
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de Login</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action="autenticacao.php" method="POST">
+        <label for="username">Nome de Usuário:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Autenticação</title>
+</head>
+<body>
+    <?php
+    // Recebe os dados do formulário
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    // Verifica as credenciais
+    if ($username === 'usuario' && $password === 'senha') {
+        echo "<h2>Bem-vindo, $username!</h2>";
+    } else {
+        echo "<h2>Credenciais inválidas. Tente novamente.</h2>";
+    }
+    ?>
+</body>
+</html>
+
+Exercício: Formulário de Feedback (Método POST)
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de Feedback</title>
+</head>
+<body>
+    <h2>Formulário de Feedback</h2>
+    <form action="autenticar.php" method="POST">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Endereço de E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="rating">Classificação (de 1 a 5):</label>
+        <input type="number" id="rating" name="rating" min="1" max="5" required><br><br>
+
+        <label for="comments">Comentários adicionais:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recebimento de Feedback</title>
+</head>
+<body>
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $rating = $_POST['rating'];
+        $comments = $_POST['comments'];
+
+        // Aqui você pode processar os dados recebidos, como salvar no banco de dados, enviar por e-mail, etc.
+
+        echo "<h2>Obrigado pelo seu feedback, $name!</h2>";
+        echo "<p>Classificação: $rating/5</p>";
+        echo "<p>Comentários: $comments</p>";
+    }
+    ?>
+</body>
+</html>
+
+Exercício: Formulário de Envio de Arquivos (Método POST)
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulário de Envio de Arquivos</title>
+</head>
+<body>
+  <h1>Formulário de Envio de Arquivos</h1>
+
+  <form action="processar.php" method="POST" enctype="multipart/form-data">
+    <label for="arquivo">Selecione um arquivo:</label>
+    <input type="file" name="arquivo" id="arquivo">
+
+    <br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arquivo Recebido</title>
+</head>
+<body>
+  <h1>Arquivo Recebido</h1>
+
+  <?php
+  // Verifica se um arquivo foi enviado com sucesso
+  if (isset($_FILES['arquivo']) && $_FILES['arquivo']['error'] === UPLOAD_ERR_OK) {
+    $nomeArquivo = $_FILES['arquivo']['name'];
+    $caminhoTemporario = $_FILES['arquivo']['tmp_name'];
+    $destino = 'pasta_destino/' . $nomeArquivo;
+
+    // Move o arquivo para o destino final
+    if (move_uploaded_file($caminhoTemporario, $destino)) {
+      echo '<p>O arquivo "' . $nomeArquivo . '" foi recebido com sucesso.</p>';
+    } else {
+      echo '<p>Ocorreu um erro ao receber o arquivo.</p>';
+    }
+  } else {
+    echo '<p>Nenhum arquivo foi enviado.</p>';
+  }
+  ?>
+</body>
+</html>
+
+
+Exercício: Formulário de Compra (Método POST)
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulário de Compra</title>
+  <script>
+    function processarFormulario() {
+      // Obter os valores do formulário
+      var produto = document.getElementById("produto").value;
+      var quantidade = document.getElementById("quantidade").value;
+      var nome = document.getElementById("nome").value;
+      var numero = document.getElementById("numero").value;
+      var validade = document.getElementById("validade").value;
+
+      // Realizar os cálculos necessários para obter o total da compra
+      // ...
+
+      // Exibir a mensagem de confirmação na página
+      var mensagem = "Obrigado pela sua compra, " + nome + "!\n";
+      mensagem += "Detalhes do pedido:\n";
+      mensagem += "Produto: " + produto + "\n";
+      mensagem += "Quantidade: " + quantidade + "\n";
+      mensagem += "Total: " + total + "\n";
+
+      document.getElementById("confirmacao").textContent = mensagem;
+      document.getElementById("confirmacao").style.display = "block";
+    }
+  </script>
+</head>
+<body>
+  <h1>Formulário de Compra</h1>
+
+  <form onsubmit="event.preventDefault(); processarFormulario();">
+    <label for="produto">Produto:</label>
+    <select name="produto" id="produto">
+      <option value="item1">Item 1</option>
+      <option value="item2">Item 2</option>
+      <option value="item3">Item 3</option>
+    </select>
+    <br>
+
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" name="quantidade" id="quantidade" min="1" required>
+    <br>
+
+    <label for="nome">Nome do Titular do Cartão:</label>
+    <input type="text" name="nome" id="nome" required>
+    <br>
+
+    <label for="numero">Número do Cartão de Crédito:</label>
+    <input type="text" name="numero" id="numero" required>
+    <br>
+
+    <label for="validade">Data de Validade:</label>
+    <input type="text" name="validade" id="validade" required>
+    <br>
+
+    <input type="submit" value="Comprar">
+  </form>
+
+  <div id="confirmacao" style="display: none;"></div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiro codigo</title>
+</head>
+<body>
+    
+    <h1>Informações Pessoais:</h1>
+    <h1>Nome: Douglas Vieira</h1>
+    <h1>E-mail: douglascanal1998@gmail.com </h1>
+    <h1>Telefone: 51 998509992 </h1>
+    <h1>Experiência Profissional:</h1>
+    <p></p>
+    <h1>Nome da Empresa: colegio são lucas</h1>
+    <h1>Cargo: aluno</h1>
+    <h1>Período: a tarde</h1>
+    <h1>Descrição:bom aluno</h1>
+    <h1>Educação: cursando em tecnico em informatica</h1>
+    <p></p>
+    <h1>Instituição de Ensino: colegio rondon </h1>
+    <h1>Curso: TI CURSO PROFISSIONALIZANTE </h1>
+    <h1>Período: TARDE</h1>
+    <h1>Habilidades: </h1>
+    <h1>PACIENTE</h1>
+    <h1>RESPONSAVEL</h1>
+    <h1>CENTRADO</h1>
+<hr>
+</body>
+</html>

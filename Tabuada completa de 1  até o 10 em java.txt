@@ -1,0 +1,19 @@
+
+Tabuada completa de 1  até o 10 em java.
+
+package exercicios;
+
+public class TabelaDeMultiplicacao {
+
+    public static void main(String[] args) {
+
+        // Loop para iterar de 1 a 10
+        for (int i = 1; i <= 10; i++) {
+            // Loop para iterar de 1 a 10 para cada multiplicador
+            for (int j = 1; j <= 10; j++) {
+                System.out.print(i + " x " + j + " = " + i * j + "\t"); // Imprime o resultado da multiplicação
+            }
+            System.out.println(); // Pula para a próxima linha
+        }
+    }
+}

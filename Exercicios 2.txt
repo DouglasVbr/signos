@@ -1,0 +1,79 @@
+  Exercicio 1 
+
+
+package exercicios;
+
+public class MinhaClasse {
+    public static void imprimirMensagem() {
+        System.out.println("Bem-vindo ao meu código");
+    }
+
+    public static void main(String[] args) {
+        imprimirMensagem();
+    }
+}
+
+Exercicio 2
+
+
+package exercicios;
+
+public class MinhaClasse {
+
+    public static void imprimirMensagem() {
+        int soma = 0;
+        for (int i = 1; i <= 10; i++) {
+            soma += i;
+        }
+        System.out.println(" A soma dos numeros inteiros de 1 a 10 é: " + soma);
+
+    }
+
+    public static void main(String[] args) {
+        imprimirMensagem();
+    }
+
+}
+
+EXERCICIO 3
+
+
+package exercicios;
+
+public class MinhaClasse {
+
+    public static void imprimirMensagem() {
+
+        int multiplicador = 1;
+        while (multiplicador <= 10) {
+            int resultado = 7 * multiplicador;
+            System.out.println("7 x " + multiplicador + " = " + resultado);
+            multiplicador++;
+        }
+        
+    }
+    public static void main(String[] args) {
+        imprimirMensagem();
+        
+    }
+}
+
+
+EXERCICIO 4
+
+package exercicios;
+
+public class MinhaClasse {
+
+    public static void main(String[] args) {
+        int n1 = 0, n2 = 1, n3, i, exibir = 10;
+        System.out.print(n1 + " " + n2); 
+        
+        for (i = 2; i < exibir; ++i) {
+            n3 = n1 + n2;
+            System.out.print(" " + n3);
+            n1 = n2;
+            n2 = n3;
+        }
+    }
+}

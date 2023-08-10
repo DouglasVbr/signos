@@ -1,0 +1,84 @@
+package vetores;
+
+public class Vetoressoma {
+
+    public static void main(String[] args) {
+
+        int[] numeros = {5, 10, 15, 20, 25}; // vetor inteiro
+        int soma = 0; // int = inteiro 
+        for (int i = 0; i <= 4; i++) { // numeros.length
+            soma += numeros[i];
+
+        }
+        System.out.println("a soma dos elementos do vetor é" + soma);
+    }
+
+}
+
+
+package vetores;
+
+public class Vetorescores {
+
+    public static void main(String[] args) {
+
+        String[] cores = { "azul", "verde", "amarelo", "vermelho" }; // vetor inteiro
+       
+        for (int i = 0; i < cores.length; i++) { // numeros.length
+           System.out.print(cores[i]+ "/*/*/*/*/*" );   
+
+        }
+       
+    }
+
+}
+
+
+
+
+
+package vetores;
+
+public class Vetoresvogais {
+
+    public static void main(String[] args) {
+
+        char letras[] = {'a', 'b', 'c', 'd', 'e'}; // vetor caractere
+
+        for (int i = 0; i < letras.length; i++) { // letras.length
+            if (letras[i] == 'a' || letras[i] == 'e' || letras[i] == 'i' || letras[i] == 'o' || letras[i] == 'u') {
+                System.out.println(" as vogais são " + i); // para mostrar as letras letras[i]para a posição +i
+
+            }
+
+        }
+
+    }
+
+}
+
+
+
+
+package vetores;
+
+public class Vetores {
+
+    public static void main(String[] args) {
+
+        boolean[] agua = {true, false, true, false, true}; // vetor boolean
+        int conta = 0;
+        for (int i = 0; i <= 4; i++) {
+            if (!agua[i] == false) { // para mostrar as letras letras[i]para a posição +i
+
+                conta++;
+            }
+
+        }
+         System.out.println("a agua é :" + conta  );
+    }
+
+}
+
+
+

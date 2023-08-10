@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site de Notícias</title>
+<style>
+
+body {
+  background: linear-gradient(to bottom, #87cefa, #9370db);
+}
+
+h1, h2, h3 {
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 17vh;
+  margin: 0;
+}
+
+img {
+  border-radius: 10%;
+}
+
+
+</style>
+
+
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>nosso dia A dia</h1>
+    <nav>
+      <ul>
+        <li><a href="#secao1">Política</a></li>
+        <li><a href="#secao2">Esportes</a></li>
+        <li><a href="#secao3">Culinária</a></li>
+       
+        
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="secao1">
+      <h2>Política</h2>
+      <article>
+        <h3>  Em confusão, líder de Zema e marido de servidora trocam xingamentos</h3>
+        <img src="Gustavo-Valadares-jpg.avif" alt="Imagem da Notícia 1">
+        <p>Durante a audiência pública da Comissão de Segurança Pública da Assembleia Legislativa de Minas Gerais (ALMG) nesta segunda-feira (5), o líder do governo Romeu Zema (Novo), Gustavo Valadares (PMN), trocou xingamentos com um dos presentes após ter o pai, Ziza Valadares, ex-presidente do Alético, xingado. A reunião foi convocada para o governo de Minas esclarecer qual será o índice de reajuste salarial a ser oferecido à categoria, que reivindica uma recomposição de perdas inflacionárias de 35,44%.  - Política</p>
+        <a href="https://www.otempo.com.br/politica/em-confusao-lider-de-zema-e-marido-de-servidora-trocam-xingamentos-1.2882650">Leia mais</a>
+      </article>
+      <article>
+        <h3>Ilha da fantasia': Rui Costa critica Brasília e políticos do DF reagem.</h3>
+        <img src="o-ministro-chefe-da-casa-civil-rui-costa-durante-reuniao-ministerial-no-palacio-do-planalto-1681585828129_v2_900x506.jpg" alt="Imagem da Notícia 2">
+        <p>O ministro de Lula criticou a escolha da capital do Brasil, alegando que a estrutura de Brasília deixa os legisladores distantes da realidade de pobreza encontrada em outras grandes metrópoles, durante evento em Itaberaba (BA), na sexta-feira (2). "Era melhor ter ficado no Rio de Janeiro, ou ter ido para São Paulo, para Minas ou Bahia, para que quem fosse entrar num prédio daquele, ou na Câmara dos Deputados ou Senado, passasse, antes de chegar no seu local de trabalho, numa favela, embaixo de viaduto, com gente pedindo comida, vendo gente desempregada."</p>
+        <a href="https://noticias.uol.com.br/politica/ultimas-noticias/2023/06/04/politicos-do-df-criticam-rui-costa.htm">Leia mais</a>
+      </article>
+    </section>
+
+    <section id="secao2">
+      <h2>Esportes</h2>
+      <article>
+        <h3>Inter pode ter quatro reforços contra o Nacional, pela Libertadores- Esportes</h3>
+        <img src="inter.png" alt="Notícia do inter ">
+        <p>Após o empate diante do Santos, na Vila Belmiro, o Inter já pensa na primeira das duas decisões que tem pela frente na Libertadores. Na quarta-feira (7), às 19h, em Montevidéu, o Colorado pode garantir antecipadamente a classificação às oitavas de final da competição, em caso de vitória sobre o Nacional. A delegação que viaja ao Uruguai pode ter até quatro reforços.
+
+            Em relação ao jogo na Vila Belmiro, dois atletas voltam de maneira imediata. O goleiro John não pôde ser utilizado diante do Santos justamente por estar emprestado pelo Peixe ao Inter. Já o volante Campanharo não atuou por estar cumprindo suspensão. Ambos retomam vaga no time titular do técnico Mano Menezes. - Esportes</p>
+        <a href="https://gauchazh.clicrbs.com.br/esportes/inter/noticia/2023/06/inter-pode-ter-quatro-reforcos-contra-o-nacional-pela-libertadores-clihh84eb000p01657necgdpz.html">Leia mais</a>
+      </article>
+      <article>
+        <h3>Grêmio vence São Paulo de virada e entra no G4 do Brasileirão</h3>
+        <img src="gremio.jpg" alt=" Notícia do gremio">
+        <p>Calleri abriu o placar para o São Paulo, mas Cristaldo e Reinaldo - fazendo valer a lei do ex - viraram o jogo. Todos os gols foram no primeiro tempo  O Grêmio recebeu o São Paulo hoje (4) pelo Campeonato Brasileiro e venceu por 2 a 1, de virada.</p>
+        <a href="https://www.uol.com.br/esporte/futebol/ultimas-noticias/2023/06/04/gremio-x-sao-paulo---9-rodada-do-brasileirao.htm">Leia mais</a>
+      </article>
+    </section>
+ 
+    <section id="secao3">
+        <h2>Culinária</h2>
+        <article>
+          <h3>Pudim de abacate gelado</h3>
+          <img src="abacate.png" alt="pudim de abacate">
+          <p>Lista de Ingredientes
+            1 abacate grande maduro
+            1 caixa de leite condensado (395 g)
+            1 caixa de creme de leite (200 g)
+            100 ml de leite
+            1 pacote de gelatina sem sabor (24 g)
+            5 colheres (sopa) de água
+            óleo para untar.</p>
+          <a href="https://www.tudogostoso.com.br/receita/180396-pudim-de-abacate-gelado.html">Leia mais</a>
+        </article>
+        <article>
+          <h3>salpicão</h3>
+          <img src="salpicao.jpg" alt="salpicão">
+          <p>1º Passo
+
+            Cozinhe o frango com sal e reserve. Coloque o frango na tigela da batedeira e bata com a pá plana na velocidade 1 até desfiar. Reserve.
+            
+            2º Passo
+            
+            Rale a cenoura no ralo grosso e leve ao fogo com água e sal só para ferver. Coe e reserve. Retire os caroços da azeitona. Corte o pimentão vermelho e a maçã verde em tiras finas, rale a cebola e reserve todos esses ingredientes.
+            
+            3º Passo
+            
+            Em um refratário, coloque o frango desfiado, a cenoura, a azeitona, o pimentão vermelho, a cebola ralada, a uva-passa, a salsinha e a maçã verde. Em seguida, acrescente o limão, o azeite e a maionese. Misture bem todos os ingredientes. Leve à geladeira para gelar.
+            
+            4º Passo
+            
+            Retire da geladeira e acrescente a batata palha. Sirva em seguida e aproveite! Agora que já sabe como fazer essa receita maravilhosa de salpicão de frango tropical, compartilhe com seus amigos e família!
+            
+            .</p>
+          <a href="https://www.kitchenaid.com.br/blog/receitas/batedeiras/como-fazer-salpicao">Leia mais</a>
+        </article>
+      </section>
+      
+    </main>
+
+  <footer>
+    <p>&copy; 2023 Meu Site de Notícias. Todos os direitos reservados.</p>
+    <p>Contato: douglascanal1998@gmail.com</p>
+  </footer>
+</body>
+</html>
